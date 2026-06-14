@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Love Story ❤️</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#ff9ec4,#fff);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:sans-serif;
+}
+
+.card{
+    width:90%;
+    max-width:400px;
+    background:white;
+    padding:25px;
+    border-radius:25px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+h1{
+    color:#ff4f8b;
+    margin-bottom:15px;
+}
+
+#days{
+    font-size:40px;
+    color:#ff4f8b;
+    font-weight:bold;
+    margin:15px 0;
+}
+
+#time{
+    font-size:18px;
+    color:#555;
+}
+
+button{
+    margin-top:20px;
+    padding:12px 20px;
+    border:none;
+    border-radius:15px;
+    background:#ff4f8b;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+    <h1>🫶🏻🤍 Our Love Story</h1>
+    <h3>Tanggal Jadian</h3>
+    <p>6 Juni 2026</p>
+    <div id="days">0 Hari ❤️</div>
+    <div id="time"></div>
+    <button onclick="toggleMusic()">🎵 Play / Pause</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
